@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="awale.awaleia.ControlleurPlateau">
+   <children>
+      <HBox alignment="CENTER" layoutX="15.0" layoutY="185.0" prefHeight="350.0" prefWidth="1250.0">
+         <children>
+            <Pane prefHeight="225.0" prefWidth="150.0">
+               <children>
+                  <Label layoutX="24.0" layoutY="40.0" text="Grenier joueur :" />
+                  <Pane layoutY="85.0" prefHeight="150.0" prefWidth="150.0">
+                     <children>
+                        <Circle fill="#1f93ff00" layoutX="75.0" layoutY="75.0" radius="75.0" stroke="BLACK" strokeType="INSIDE" />
+                        <Button fx:id="grenierJoueur" layoutX="25.0" layoutY="25.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: transparent;" text="0" textAlignment="CENTER" />
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <VBox prefHeight="350.0" prefWidth="900.0">
+               <children>
+                  <HBox prefHeight="175.0" prefWidth="918.0">
+                     <children>
+                        <Pane prefHeight="150.0" prefWidth="150.0">
+                           <children>
+                              <Circle fill="#1f93ff00" layoutX="75.0" layoutY="75.0" radius="75.0" stroke="BLACK" strokeType="INSIDE" />
+                              <Button fx:id="trou0" layoutX="25.0" layoutY="25.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: transparent;" text="0" textAlignment="CENTER" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="150.0" prefWidth="150.0">
+                           <children>
+                              <Circle fill="#1f93ff00" layoutX="75.0" layoutY="75.0" radius="75.0" stroke="BLACK" strokeType="INSIDE" />
+                              <Button fx:id="trou1" layoutX="25.0" layoutY="25.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: transparent;" text="0" textAlignment="CENTER" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="150.0" prefWidth="150.0">
+                           <children>
+                              <Circle fill="#1f93ff00" layoutX="75.0" layoutY="75.0" radius="75.0" stroke="BLACK" strokeType="INSIDE" />
+                              <Button fx:id="trou2" layoutX="25.0" layoutY="25.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: transparent;" text="0" textAlignment="CENTER" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="150.0" prefWidth="150.0">
+                           <children>
+                              <Circle fill="#1f93ff00" layoutX="75.0" layoutY="75.0" radius="75.0" stroke="BLACK" strokeType="INSIDE" />
+                              <Button fx:id="trou3" layoutX="25.0" layoutY="25.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: transparent;" text="0" textAlignment="CENTER" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="150.0" prefWidth="150.0">
+                           <children>
+                              <Circle fill="#1f93ff00" layoutX="75.0" layoutY="75.0" radius="75.0" stroke="BLACK" strokeType="INSIDE" />
+                              <Button fx:id="trou4" layoutX="25.0" layoutY="25.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: transparent;" text="0" textAlignment="CENTER" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="150.0" prefWidth="150.0">
+                           <children>
+                              <Circle fill="#1f93ff00" layoutX="75.0" layoutY="75.0" radius="75.0" stroke="BLACK" strokeType="INSIDE" />
+                              <Button fx:id="trou5" layoutX="25.0" layoutY="25.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: transparent;" text="0" textAlignment="CENTER" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="175.0" prefWidth="909.0">
+                     <children>
+                        <Pane prefHeight="150.0" prefWidth="150.0">
+                           <children>
+                              <Circle fill="#1f93ff00" layoutX="75.0" layoutY="75.0" radius="75.0" stroke="BLACK" strokeType="INSIDE" />
+                              <Button fx:id="trou6" layoutX="25.0" layoutY="25.0" mnemonicParsing="false" onAction="#jouer6" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: transparent;" text="0" textAlignment="CENTER" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="150.0" prefWidth="150.0">
+                           <children>
+                              <Circle fill="#1f93ff00" layoutX="75.0" layoutY="75.0" radius="75.0" stroke="BLACK" strokeType="INSIDE" />
+                              <Button fx:id="trou7" layoutX="25.0" layoutY="25.0" mnemonicParsing="false" onAction="#jouer7" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: transparent;" text="0" textAlignment="CENTER" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="150.0" prefWidth="150.0">
+                           <children>
+                              <Circle fill="#1f93ff00" layoutX="75.0" layoutY="75.0" radius="75.0" stroke="BLACK" strokeType="INSIDE" />
+                              <Button fx:id="trou8" layoutX="25.0" layoutY="25.0" mnemonicParsing="false" onAction="#jouer8" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: transparent;" text="0" textAlignment="CENTER" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="150.0" prefWidth="150.0">
+                           <children>
+                              <Circle fill="#1f93ff00" layoutX="75.0" layoutY="75.0" radius="75.0" stroke="BLACK" strokeType="INSIDE" />
+                              <Button fx:id="trou9" layoutX="25.0" layoutY="25.0" mnemonicParsing="false" onAction="#jouer9" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: transparent;" text="0" textAlignment="CENTER" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="150.0" prefWidth="150.0">
+                           <children>
+                              <Circle fill="#1f93ff00" layoutX="75.0" layoutY="75.0" radius="75.0" stroke="BLACK" strokeType="INSIDE" />
+                              <Button fx:id="trou10" layoutX="25.0" layoutY="25.0" mnemonicParsing="false" onAction="#jouer10" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: transparent;" text="0" textAlignment="CENTER" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="150.0" prefWidth="150.0">
+                           <children>
+                              <Circle fill="#1f93ff00" layoutX="75.0" layoutY="75.0" radius="75.0" stroke="BLACK" strokeType="INSIDE" />
+                              <Button fx:id="trou11" layoutX="25.0" layoutY="25.0" mnemonicParsing="false" onAction="#jouer11" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: transparent;" text="0" textAlignment="CENTER" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <Pane prefHeight="140.0" prefWidth="150.0">
+               <children>
+                  <Label layoutX="24.0" layoutY="40.0" text="Grenier de l'IA :" />
+                  <Pane layoutY="85.0" prefHeight="150.0" prefWidth="150.0">
+                     <children>
+                        <Circle fill="#1f93ff00" layoutX="75.0" layoutY="75.0" radius="75.0" stroke="BLACK" strokeType="INSIDE" />
+                        <Button fx:id="grenierIA" layoutX="25.0" layoutY="25.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: transparent;" text="0" textAlignment="CENTER" />
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+         </children>
+      </HBox>
+      <Label fx:id="tourIA" layoutX="493.0" layoutY="100.0" text="C'est au tour de l'IA, patientez, elle réfléchit..." textAlignment="CENTER" />
+      <Label fx:id="tourJoueur" layoutX="398.0" layoutY="620.0" text="C'est à votre tour ! Veuillez cliquer sur le coup à jouer (l'un des carré vert)." textAlignment="CENTER" />
+   </children>
+</Pane>

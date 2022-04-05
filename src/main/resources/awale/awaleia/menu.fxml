@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+
+<MenuBar prefHeight="28.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="awale.awaleia.ControlleurMenu">
+   <menus>
+      <Menu mnemonicParsing="false" text="Réglages">
+         <items>
+            <MenuItem mnemonicParsing="false" onAction="#reglerProfondeur" text="Régler la profondeur limite de recherche" />
+         </items>
+      </Menu>
+      <Menu mnemonicParsing="false" text="Règles du jeu">
+         <items>
+            <MenuItem mnemonicParsing="false" onAction="#lireLesRegles" text="Lire les règles du jeu" />
+         </items>
+      </Menu>
+      <Menu mnemonicParsing="false" text="Quitter">
+         <items>
+            <MenuItem mnemonicParsing="false" onAction="#quitterApplication" text="Quitter le jeu" />
+         </items>
+      </Menu>
+   </menus>
+</MenuBar>
